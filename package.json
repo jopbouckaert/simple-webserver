@@ -1,0 +1,25 @@
+{
+  "name": "simple_webserver",
+  "version": "1.0.0",
+  "description": "Demo of Node.js",
+  "main": "./src/app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jopbouckaert/simple-webserver.git"
+  },
+  "keywords": [
+    "demo",
+    "web",
+    "server"
+  ],
+  "author": "Jop Bouckaert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jopbouckaert/simple-webserver/issues"
+  },
+  "homepage": "https://github.com/jopbouckaert/simple-webserver#readme"
+}
