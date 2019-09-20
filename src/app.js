@@ -3,7 +3,7 @@ const server = http.createServer();
 const url = require("url");
 
 function set_response(response, content, status = 200) {
-  response.writeHead(200, { "Content-Type": "text/plain" });
+  response.writeHead(status, { "Content-Type": "text/plain" });
   response.write(content);
 }
 
